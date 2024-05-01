@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname, "../client/dist")));
 // app.use(cors());
 const corsOptions = {
   credentials: true,
-  origin: "http://localhost:5174",
+  origin: "http://localhost:5175",
 };
 app.use(cors(corsOptions));
 
